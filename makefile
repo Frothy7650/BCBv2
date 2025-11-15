@@ -6,3 +6,5 @@ windows:
 	v -os windows main.v -o main.exe
 clean:
 	rm *.bin *.exe
+install: linux
+	mv ./*.bin /usr/local/bin/
