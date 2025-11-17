@@ -1,0 +1,9 @@
+{
+  "name": "BCB",
+  "version": "v1.0.0",
+  "description": "Basic ChatBot(version 2)",
+  "build": "v -os linux $tempBCB/main.v -o $tempBCB/BCB",
+  "binary_name": "BCB",
+  "dependencies": ["v"],
+  "os": ["linux"]
+}
